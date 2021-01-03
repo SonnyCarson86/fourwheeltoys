@@ -65,6 +65,8 @@ padding: 5% 7%;
 }
 
 /* search section */
+
+
 .card-header {
   background-color: #F5B100;
 }
@@ -74,8 +76,10 @@ padding: 5% 7%;
 }
 
 .search-column {
-  padding: 50px 15px 15px;
+  margin: 50px 15px 15px;
+  }
 }
+
 /* Features Section */
 .features-icon {
   color: #F5B100;
