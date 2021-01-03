@@ -66,9 +66,8 @@ padding: 5% 7%;
 
 /* search section */
 
-.card {
-margin: 50px 15px 15px;
-}
+.card
+
 
 .card-header {
   background-color: #F5B100;
@@ -79,7 +78,8 @@ margin: 50px 15px 15px;
 }
 
 .search-column {
-
+  border: 50px 15px 15px;
+  padding: 50px 15px 15px;
 }
 /* Features Section */
 .features-icon {
