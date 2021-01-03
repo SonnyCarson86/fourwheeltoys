@@ -1,0 +1,155 @@
+body {
+  background-color: #0064D3;
+  font-family: "Bangers";
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 3%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+hr {
+border-color: #fff;
+border-style: solid none none;
+border-width: 5px;
+
+
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/* section styles */
+
+
+.top-style {
+
+padding: 5% 7%;
+}
+
+.body-style {
+
+  padding: 5% 15%;
+
+}
+
+
+.bottom-style {
+
+  padding: 0% 7%;
+}
+
+.bottom-style .col {
+  padding: 5%  ;
+}
+
+/* logo Bar */
+.logo-image {
+  vertical-align: middle;
+  padding: 30px 30px;
+  display: table-cell;
+}
+
+.logo-image img {
+  max-width: 50%;
+}
+
+/* search section */
+.card-header {
+  background-color: #F5B100;
+}
+
+.card-body {
+  background-color: #87B910;
+}
+
+/* Features Section */
+.features-icon {
+  color: #F5B100;
+  margin-bottom: 1rem;
+  padding-bottom: 5%;
+}
+
+.features-icon:hover {
+  color: #E62E35;
+}
+
+/****this is the text shine code*****/
+.effect-shine2 {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 100%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+/* zoom styles */
+.zoom {
+  transition: transform .2s;
+  /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* media query */
+@media (max-width: 800px) {
+  .zoom:hover {
+    transform: scale(1);
+  }
+}
+
+@media(max-width: 800px) {
+  .logo-image img {
+    max-width: 100%;
+  }
+}
+
+@media(max-width: 1200px) {
+  h1 {
+  font-size: 2rem;
+  }
+}
+
+@media(max-width: 650px) {
+  h1 {
+  font-size: 1rem;
+  }
+}
