@@ -34,23 +34,23 @@ a:hover {
 
 .top-style {
 
-padding: 5% 7%;
+margin: 5% 7%;
 }
 
 .body-style {
 
-  padding: 5% 15%;
+  margin: 5% 15%;
 
 }
 
 
 .bottom-style {
 
-  padding: 0% 7%;
+  margin: 0% 7%;
 }
 
 .bottom-style .col {
-  padding: 5%  ;
+  margin: : 5%  ;
 }
 
 /* logo Bar */
@@ -67,7 +67,7 @@ padding: 5% 7%;
 /* search section */
 
 .card {
-  margin: 50px 15px 15px;
+margin: 50px 15px 15px;
 }
 
 
@@ -80,9 +80,8 @@ padding: 5% 7%;
 }
 
 .search-column {
- 
-  padding: 50px 15px 15px;
 }
+
 /* Features Section */
 .features-icon {
   color: #F5B100;
