@@ -67,7 +67,7 @@ margin: 5% 7%;
 /* search section */
 
 .card {
-margin: 50px 15px 15px;
+
 }
 
 
@@ -80,6 +80,7 @@ margin: 50px 15px 15px;
 }
 
 .search-column {
+  margin: 50px 15px 15px;
 }
 
 /* Features Section */
