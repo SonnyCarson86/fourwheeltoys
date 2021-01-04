@@ -58,7 +58,15 @@ a:hover {
   background-color: #87B910;
 }
 
+.card-img-top {
+width: 100%;
+height: 60vh;
+object-fit: contain;
+}
 
+.search-col {
+  margin: 50px 15px;
+}
 /* Features Section */
 .features-icon {
   color: #F5B100;
@@ -138,10 +146,4 @@ a:hover {
   h1 {
   font-size: 2rem;
   }
-}
-
-.card-img-top {
-width: 100%;
-height: 60vh;
-object-fit: contain;
 }
